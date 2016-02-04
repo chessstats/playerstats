@@ -8,6 +8,7 @@
 #' create_key_stats()
 
 create_key_stats <- function() {
+require(xtable)
 require(plyr)
 key_stats<-function(ckey) {
 	path=paste("current/stats",ckey,sep="/")
